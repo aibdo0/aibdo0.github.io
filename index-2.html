@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>عبدالرحمن قرمان | Abdelrahman Qarman</title>
+  <meta name="description" content="عبدالرحمن قرمان — مهتم بالشبكات وأنظمة التشغيل وLinux وOpen Source، وطالب بجامعة الأزهر في مصر.">
+  <meta name="keywords" content="عبدالرحمن قرمان, Abdelrahman Qarman, عبدالرحمن قرمان الأزهر, Al Azhar University, Networks, Linux, Systems, Open Source">
+  <meta name="author" content="عبدالرحمن قرمان">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="google-site-verification" content="PhA0JVtc2HWo1HDh_xdFMPwHAyjYkTZGAVYg1bkxQKE" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://aibdo0.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aibdo0.github.io/">
+  <meta property="og:title" content="عبدالرحمن قرمان | Abdelrahman Qarman">
+  <meta property="og:description" content="صفحة عبدالرحمن قرمان — شبكات، أنظمة، Linux وOpen Source.">
+  <meta property="og:site_name" content="عبدالرحمن قرمان">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="عبدالرحمن قرمان | Abdelrahman Qarman">
+  <meta name="twitter:description" content="عبدالرحمن قرمان — Networks • Systems • Linux • Open Source">
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#0b0f14">
+
+  <!-- Structured Data: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "عبدالرحمن قرمان",
+    "alternateName": "Abdelrahman Qarman",
+    "url": "https://aibdo0.github.io/",
+    "sameAs": [
+      "https://github.com/aibdo0",
+      "https://www.facebook.com/share/1D3x2TKCn2/"
+    ],
+    "jobTitle": "Network & Systems Enthusiast",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Al-Azhar University"
+    },
+    "knowsAbout": [
+      "Computer Networks",
+      "Linux",
+      "System Administration",
+      "Cybersecurity",
+      "Open Source"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #080b10;
+      --surface: #10151d;
+      --surface-2: #151c26;
+      --text: #f5f7fa;
+      --muted: #9aa6b2;
+      --line: rgba(255,255,255,.09);
+      --accent: #62a8ff;
+      --accent-2: #8b7cff;
+      --max: 1050px;
+      --radius: 22px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Tahoma, Arial, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 85% 10%, rgba(98,168,255,.12), transparent 28%),
+        radial-gradient(circle at 10% 35%, rgba(139,124,255,.10), transparent 25%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(92%, var(--max));
+      margin-inline: auto;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(14px);
+      background: rgba(8,11,16,.78);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: .2px;
+    }
+
+    .brand span {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+
+    .hero {
+      padding: 95px 0 75px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 13px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.035);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: .9rem;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 7vw, 4.8rem);
+      line-height: 1.15;
+      margin-bottom: 15px;
+      letter-spacing: -.8px;
+    }
+
+    .english-name {
+      color: var(--accent);
+      font-size: clamp(1.05rem, 3vw, 1.45rem);
+      direction: ltr;
+      margin-bottom: 18px;
+      font-weight: 700;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1.06rem;
+    }
+
+    .buttons {
+      margin-top: 28px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      border-radius: 13px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      transition: .2s ease;
+      font-weight: 700;
+    }
+
+    .btn.primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      border: none;
+      color: #fff;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      border-color: rgba(98,168,255,.45);
+    }
+
+    section { padding: 55px 0; }
+
+    .section-title {
+      font-size: 1.7rem;
+      margin-bottom: 9px;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      margin-bottom: 25px;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.018));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 27px;
+      box-shadow: 0 15px 45px rgba(0,0,0,.18);
+    }
+
+    .card p { color: #c7d0da; }
+
+    .facts {
+      display: grid;
+      gap: 12px;
+    }
+
+    .fact {
+      padding: 14px;
+      background: var(--surface-2);
+      border-radius: 14px;
+      border: 1px solid var(--line);
+    }
+
+    .fact small {
+      display: block;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      padding: 9px 14px;
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #dbe4ee;
+      direction: ltr;
+    }
+
+    .contact {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: .9rem;
+    }
+
+    .footer-name {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    @media (max-width: 760px) {
+      .nav-inner { justify-content: center; }
+      .brand { display: none; }
+      .nav-links { gap: 12px; font-size: .82rem; }
+      .hero { padding-top: 70px; }
+      .about { grid-template-columns: 1fr; }
+      .card { padding: 21px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">عبدالرحمن <span>قرمان</span></a>
+      <div class="nav-links">
+        <a href="#about">عني</a>
+        <a href="#skills">المهارات</a>
+        <a href="#education">التعليم</a>
+        <a href="#contact">تواصل</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="home">
+
+    <header class="hero container">
+      <div class="badge">💻 Networks • Systems • Linux • Open Source</div>
+
+      <h1>عبدالرحمن قرمان</h1>
+      <div class="english-name">Abdelrahman Qarman</div>
+
+      <p>
+        مهتم بالشبكات وأنظمة التشغيل وLinux وOpen Source،
+        وأسعى لتطوير مهاراتي التقنية من خلال التعلم والمشاريع والتجارب العملية.
+      </p>
+
+      <div class="buttons">
+        <a class="btn primary" href="https://github.com/aibdo0" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.facebook.com/share/1D3x2TKCn2/" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn" href="#contact">تواصل معي</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">عن عبدالرحمن قرمان</h2>
+        <p class="section-subtitle">نبذة مختصرة بالعربية والإنجليزية</p>
+
+        <div class="about">
+          <article class="card">
+            <p>
+              أنا <strong>عبدالرحمن قرمان</strong>، طالب بجامعة الأزهر في مصر،
+              ومهتم بمجال شبكات الحاسب وأنظمة التشغيل وإدارة الأنظمة وLinux
+              والأمن السيبراني ومشاريع الـOpen Source.
+            </p>
+            <br>
+            <p dir="ltr">
+              I’m Abdelrahman Qarman, an Al-Azhar University student interested
+              in computer networks, systems administration, Linux, cybersecurity,
+              and open-source technologies.
+            </p>
+          </article>
+
+          <div class="card facts">
+            <div class="fact">
+              <small>🎓 الجامعة</small>
+              Al-Azhar University
+            </div>
+            <div class="fact">
+              <small>📍 المكان</small>
+              Safaga, Egypt
+            </div>
+            <div class="fact">
+              <small>💻 المجال</small>
+              Network & Systems
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">اهتماماتي التقنية</h2>
+        <p class="section-subtitle">Technical Interests</p>
+
+        <div class="card">
+          <div class="skills">
+            <span class="skill">Computer Networks</span>
+            <span class="skill">Linux</span>
+            <span class="skill">System Administration</span>
+            <span class="skill">Cybersecurity</span>
+            <span class="skill">Open Source</span>
+            <span class="skill">Git & GitHub</span>
+            <span class="skill">Networking Fundamentals</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">التعليم</h2>
+        <p class="section-subtitle">Education</p>
+
+        <div class="card">
+          <h3>جامعة الأزهر الشريف</h3>
+          <p>Al-Azhar University — Egypt</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact">
+        <h2 class="section-title">تواصل معي</h2>
+        <p class="section-subtitle">
+          يمكنك زيارة حساباتي ومتابعة مشاريعي وتواصلي المهني.
+        </p>
+
+        <div class="buttons">
+          <a class="btn primary" href="https://github.com/aibdo0" target="_blank" rel="noopener">github.com/aibdo0</a>
+          <a class="btn" href="https://www.facebook.com/share/1D3x2TKCn2/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> <span class="footer-name">عبدالرحمن قرمان</span> — Abdelrahman Qarman
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
